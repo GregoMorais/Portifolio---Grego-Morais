@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="denisestyle.css" />
+    <title>Denise Arquitetura & Design de Interiores</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon-32x32.png">
+</head>
+
+<body>
+    <nav>
+        <header>Denise Arquitetura & Design de Interiores</header>
+        <section class="nav-options">
+            <a href="#Home">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Projetos</a>
+            <a href="#form">Contato</a>
+            <a href="#">Planos</a>
+        </section>
+    </nav>
+
+    <section id="Home">
+        <div class="container">
+            <div class="column-left">
+                <h1>Denise Santana</h1>
+                <p>"Arquitetura é um jogo de palavras escritas em tijolos"</p>
+                <a id="ORC-Button" href="#form">Faça sua Consulta</a>
+            </div>
+    </section>
+    <form id="form" action="https://enscape3d.com/pt-br/visualizacao-arquitetonica/">
+        <section>
+            <h2>Formulário dos Desejos</h2>
+            <n>Digite seu nome:</n>
+            <input type="text" name="username" size="40" maxlength="40" value=""
+                placeholder="Preencha seu nome completo">
+            <br></br>
+            <n>Digite seu email:</n>
+            <input type="text" name="useremail" size="40" maxlength="40" value="" placeholder="denise@arquitetura.com.br">
+            <br></br>
+            <n>Digite seu Telefone:</n>
+            <input type="number" name="usernumber" size="40" maxlength="40" value="" placeholder="( ) 99999-9999">
+            <br></br>
+            <p>Qual seu objetivo?</p>
+            <input type="checkbox" name="reform"> Reforma
+            <input type="checkbox" name="house"> Construção
+            <br></br>
+            <p>Qual é o orçamento previsto para o projeto?</p>
+            <input type="number" name="userlow" size="20" maxlength="20" value="" placeholder="R$ De"><input
+                type="number" name="userhigh" size="20" maxlength="20" value="" placeholder="R$ Até">
+            <br></br>
+            <p>Nos conte mais sobre você</p>
+            <textarea name="usercoment" cols="30" rows="4"></textarea>
+            <br></br>
+            <p>Qual estilo arquitetonico mais combina com você?</p>
+            <select name="stylepref">
+                <option></option>
+                <option value="1">Minimalista</option>
+                <option value="2">Rústico</option>
+                <option value="3">Americano</option>
+                <option value="4">Moderno</option>
+            </select>
+            <br></br>
+            <input id="form-button" type="submit" value="ENVIAR">
+        </section>
+    </form>
+</body>
+
+</html>
